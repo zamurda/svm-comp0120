@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "svm-comp0120"
+version = "0.1.0"
+description = "An Support Vector Classifier built for the COMP01020 Numerical Optimisation module at UCL. Supports kernel methods."
+authors = ["Murtaza Dhanerawala <116756472+zamurda@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+numpy = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
